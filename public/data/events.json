@@ -1,0 +1,47 @@
+[
+    {
+      "id": "1",
+      "name": "Screaming Serpents",
+      "date": "2024-03-15",
+      "time": "9:00 PM",
+      "description": "Ear-splitting riffs and stage-diving madness!",
+      "imageUrl": "/images/concert1.jpg",
+      "ticketPrice": 30.00
+    },
+    {
+      "id": "2",
+      "name": "Razorwire Revolution",
+      "date": "2024-03-22",
+      "time": "8:30 PM",
+      "description": "Punk rock chaos unleashed!",
+      "imageUrl": "/images/concert2.jpg",
+      "ticketPrice": 25.00
+    },
+    {
+      "id": "3",
+      "name": "The Crimson Cadavers",
+      "date": "2024-03-29",
+      "time": "9:30 PM",
+      "description": "Horror punk legends!",
+      "imageUrl": "/images/concert3.jpg",
+      "ticketPrice": 28.00
+    },
+    {
+      "id": "4",
+      "name": "Blackheart Bastards",
+      "date": "2024-04-05",
+      "time": "8:00 PM",
+      "description": "Gritty rock anthems.",
+      "imageUrl": "/images/concert4.jpg",
+      "ticketPrice": 22.00
+    },
+    {
+      "id": "5",
+      "name": "Infernal Echoes",
+      "date": "2024-04-12",
+      "time": "9:00 PM",
+      "description": "Dark and heavy sounds from the abyss.",
+      "imageUrl": "/images/concert5.jpg",
+      "ticketPrice": 35.00
+    }
+  ]
