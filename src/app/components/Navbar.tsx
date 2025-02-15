@@ -18,17 +18,18 @@ const Navbar = () => {
           <Link href="/" className="text-gray-300 hover:text-red-500 transition-colors duration-200">
             Home
           </Link>
-          {process.env.NEXT_PUBLIC_ADMIN_ENABLED === 'true' && (
-            <Link href="/admin" className="text-gray-300 hover:text-red-500 transition-colors duration-200">
-              Admin
-            </Link>
-          )}
+          <Link href="/events" className="text-gray-300 hover:text-red-500 transition-colors duration-200">
+            Events
+          </Link>
         </div>
         <div className="space-x-4 text-gray-300">
         <SignedOut>
             <SignInButton />
           </SignedOut>
           <SignedIn>
+            <Link href="/admin" className="text-gray-300 hover:text-red-500 transition-colors duration-200">
+              Admin
+            </Link>
             <UserButton />
           </SignedIn>
           </div>
