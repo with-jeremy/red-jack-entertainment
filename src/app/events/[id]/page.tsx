@@ -1,20 +1,8 @@
-import React from 'react';
-import { EventDetail } from './EventDetail';
-
-interface Params {
-    id?: string;
-}
-
-interface PageProps {
-    params?: Params;
-}
-
-export default function EventPage({ params }: { params: { id: string } }) {
-    const { id } = params;
-
-    return (
-        <div>
-            <EventDetail eventId={id} />
-        </div>
-    );
-}
+export default async function Page({
+    params,
+  }: {
+    params: Promise<{ id: string }>
+  }) {
+    const id = (await params).id
+    return <div>My Post: {id}</div>
+  }
