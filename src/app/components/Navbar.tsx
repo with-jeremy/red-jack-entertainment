@@ -1,5 +1,12 @@
 import React from 'react';
 import Link from 'next/link';
+import {
+  ClerkProvider,
+  SignInButton,
+  SignedIn,
+  SignedOut,
+  UserButton
+} from '@clerk/nextjs'
 
 const Navbar = () => {
   return (
@@ -18,6 +25,14 @@ const Navbar = () => {
             </Link>
           )}
         </div>
+        <div className="space-x-4 text-gray-300">
+        <SignedOut>
+            <SignInButton />
+          </SignedOut>
+          <SignedIn>
+            <UserButton />
+          </SignedIn>
+          </div>
       </div>
     </nav>
   );
