@@ -6,8 +6,6 @@ import {
 } from '@clerk/nextjs'
 import '~/styles/globals.css';
 
-const inter = Inter({ subsets: ['latin'] });
-
 export const metadata: Metadata = {
   title: "RedJacks - Live Music Mayhem",
   description: "Brought to you by Red and Jack, your purveyors of punk, rock, and all things loud!",
