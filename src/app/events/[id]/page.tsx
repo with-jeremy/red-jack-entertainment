@@ -2,14 +2,14 @@ import React from 'react';
 import { EventDetail } from './EventDetail';
 
 interface Params {
-    id: string;
+    id?: string;
 }
 
 interface PageProps {
-    params: Params;
+    params?: Params;
 }
 
-export default function EventPage({ params }: PageProps) {
+export default function EventPage({ params }: { params: { id: string } }) {
     const { id } = params;
 
     return (
